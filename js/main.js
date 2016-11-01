@@ -1,168 +1,3 @@
-// console.log("Hello World!")
-// document.write("Hello world")
-// alert("Hello World")
-
-// var name = prompt("Whats your name?")
-// console.log(name)
-
-// var string = ("This is a string, it is in quotes")
-// var number = (123)
-// var boolean = true
-// var array = [5, true, "Hello"]
-
-// var num1 = 10
-// var num2 = 50
-// var num3 = 30
-
-// var num4 = num1 + num2 + num3
-// document.write(num4)
-
-// if (num1 >= num3) {
-// 	console.log("10 is greater than 30")
-// }
-// else {
-// 	console.log("30 is greater than 10")
-// }
-
-// for (var i = 1; i <= 20; i++) {
-// 	console.log(i)
-// }
-
-// function myFunction(a, b) {
-//     return a * b;
-// }
-
-// myFunction()
-
-// var username = prompt("Whats your name?")
-// // var lowerCaseName = lowerCaseName.toLowerCase();
-
-
-// if (username == "scott" || username == "julia") {
-// 	document.write("Hello " + username + ", great to see you!")
-
-// }
-
-// else {
-// 	document.write("Go away")
-// }
-
-// var content = "write anything here"
-// document.getElementById("message").innerHTML = content
-
-// function getInfo() {
-// 	var username = document.getElementById("username").value
-// 	var password = document.getElementById("password").value
-// 	console.log("your username is " + username + " and your password is " + password)
-// }
-
-// getInfo()
-
-
-// var cars = ["fiat", "bmw", "honda", "toyota"]
-// // console.log(cars.length)
-
-// for (i = 0; i < cars.length; i++) {
-// 	if (cars[i] = "bmw") {
-// 		console.log("You're driving a sweet " + cars[i])
-// 	}
-// 	// console.log(cars[i])
-
-// }
-
-
-// var arr = [10, 55, 22, 87, 14]
-// var biggest = 0
-
-// for (i = 0; i < arr.length; i++) {
-// 	arr[i]
-// 	if (biggest < arr[i]) {
-// 		biggest = arr[i]
-// 	}
-// 	}
-// 	console.log(biggest)
-
-
-// var cars = [
-// 	{
-// 		make: "honda",
-// 		model: "civic",
-// 		year: 2014,
-// 		color: "blue"
-// 	},
-// 	{
-// 		make: "toyota",
-// 		model: "camry",
-// 		year: 2000,
-// 		color: "red"
-// 	},
-// 	{
-// 		make: "ford",
-// 		model: "mustang",
-// 		year: 2005,
-// 		color: "black"
-// 	},
-// ]
-
-// console.log(cars[0].make)
-
-// for (i = 0; i < cars.length; i++) {
-// 	if (cars[i].year < 2010) {
-// 		document.write(cars[i].make + ", " + cars[i].model)
-// 	}
-// }
-// var honda = {
-// 	model: "civic",
-// 	year: 2014,
-// 	color: "blue"
-// }
-
-// var toyota = {
-// 	model: "camry",
-// 	year: 2000,
-// 	color: "red"
-// }
-
-// var ford = {
-// 	model: "mustang",
-// 	year: 2005,
-// 	color: "black"
-// }
-// console.log(ford.model)
-//  ford.model = "F150"
-// console.log(honda.model)
-// console.log(toyota.model)
-// console.log(ford.model)
-
-// var objPeople = [
-// 	{
-// 		username: "scott",
-// 		password: "password"
-// 	},
-// 	{
-// 		username: "julia",
-// 		password: "cardiobarre"
-// 	},
-// 	{
-// 		username: "cinnamon",
-// 		password: "treats"
-// 	}
-// ]
-
-
-// function getInfo() {
-// 	var username = document.getElementById("username").value
-// 	var password = document.getElementById("password").value
-// 	for (i = 0; i < objPeople.length; i++)
-// 		if (username == objPeople[i].username && password == objPeople[i].password) {
-// 			console.log(username + " is logged in")
-// 			return
-// 		}
-	
-// 	console.log("incorrect username or password")
-// }
-
-
 var signs = [
 	{
 		name: "Aries",
@@ -235,16 +70,16 @@ var signs = [
 	},
 	{
 		name: "Capricorn",
-		image: "img/capricorn-1.png",
+		image: "img/capricornus-1.png",
 		positive: "Career success is deeply important to you, and so this month will be as delicious as homemade chocolate chip cookies, fresh from the oven.",
 		answer: "capricorn"
 
 	},
 	{
 		name: "Picses",
-		image: "img/picses-1.png",
+		image: "img/pisces-1.png",
 		positive: "As a Pisces you are outstandingly artistic, imaginative, and visionary.",
-		answer: "picses"
+		answer: "pisces"
 
 	},
 	{
